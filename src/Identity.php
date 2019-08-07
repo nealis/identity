@@ -3,13 +3,13 @@
 namespace Nealis\Identity;
 
 use Nealis\Identity\Repository\UserRepositoryInterface;
-use Symfony\Component\HttpFoundation\Session\Session;
+use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 class Identity
 {
     const DEFAULT_USERNAME = 'debug';
 
-    /** @var  Session */
+    /** @var  SessionInterface */
     protected $session;
 
     /** @var bool */
@@ -35,10 +35,10 @@ class Identity
 
     /**
      * Identity constructor.
-     * @param Session $session
+     * @param SessionInterface $session
      * @param UserRepositoryInterface $userRepository
      */
-    public function __construct(Session $session, UserRepositoryInterface $userRepository)
+    public function __construct(SessionInterface $session, UserRepositoryInterface $userRepository)
     {
         $this->session = $session;
         $this->userRepository = $userRepository;
