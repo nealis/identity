@@ -1,0 +1,23 @@
+{
+    "name": "nealis/identity",
+    "description": "An identity system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Guido Sangiovanni",
+        "email": "sangiovanni.guido@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Nealis\\Identity\\": "src/"
+      }
+    },
+    "require": {
+        "nealis/entityrepository": "^1.0",
+        "symfony/http-foundation": "^4.3",
+        "nealis/params": "^1.0",
+        "nealis/result": "^1.0"
+    }
+}
