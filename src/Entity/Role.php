@@ -7,7 +7,6 @@ use Nealis\Identity\Repository\KeyRoleRepository;
 use Nealis\Identity\Repository\UserRoleRepository;
 use Nealis\EntityRepository\Entity\Field\Field;
 use Nealis\EntityRepository\Entity\Entity;
-use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Role Entity

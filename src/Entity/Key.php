@@ -3,6 +3,7 @@
 namespace Nealis\Identity\Entity;
 
 
+use Nealis\EntityRepository\Entity\Field\Field;
 use Nealis\Identity\Repository\KeyRoleRepository;
 use Nealis\EntityRepository\Entity\Entity;
 

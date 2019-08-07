@@ -3,6 +3,7 @@
 namespace Nealis\Identity\Entity;
 
 
+use Nealis\EntityRepository\Data\Validator\ForeignKeyValidator;
 use Nealis\EntityRepository\Entity\Field\Field;
 use Nealis\Identity\Repository\KeyRepository;
 use Nealis\Identity\Repository\RoleRepository;

@@ -3,11 +3,10 @@
 namespace Nealis\Identity\Entity;
 
 
+use Nealis\EntityRepository\Data\Validator\ForeignKeyValidator;
+use Nealis\EntityRepository\Entity\Entity;
 use Nealis\Identity\Repository\RoleRepository;
-use Esc\Data\Validator\ForeignKeyValidator;
-use Esc\Doctrine\Entity\Entity;
 use Nealis\EntityRepository\Entity\Field\Field;
-use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Security Entity
